@@ -1,0 +1,23 @@
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+#slogan{
+   text-align: center;
+}
+#intro{
+    display: inline-block;
+    border: black 1px solid;
+}
+#locate{
+    display: inline-block;
+    border: black 1px solid;
+}
+#time{
+    display: inline-block;
+    border: black 1px solid;
+}
+#table{
+    border: solid 2px black;
+}
