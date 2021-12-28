@@ -1,0 +1,40 @@
+<!DOCTYPE html><html lang="ko">
+    <head>
+       <link rel="stylesheet" href="Buwhal.css">
+       <script src="Buwhal.js"></script>
+       <title>부활교회</title>
+       <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=h3btn5bilv"></script>
+
+    </head>
+    <body>
+
+        <div id="header">
+            <span id="logo">
+            <a href="Buwhal.html"><img src="로고.png" width="296" height="113"></a>
+            </span>
+            <div id="nav">
+            <div id="intro">
+                <a href="Intro.html">교회소개</a>
+            </div>
+            <div id="time">
+                <a href="WorshipTime.html">예배시간</a>
+            </div>
+            <div id="locate">
+                <a href="Location.html">오시는길</a>
+            </div>
+            </div>
+        </div>
+        
+        <div id="contents">
+            <div id="map" style="width:100%;height:400px;"></div>
+        </div>
+        <script>
+            var mapOptions = {
+                center: new naver.maps.LatLng(37.3595704, 127.105399),
+                zoom: 10
+            };
+            
+            var map = new naver.maps.Map('map', mapOptions);
+            </script>
+    </body>
+</html>
